@@ -19,7 +19,7 @@ let port = process.env.PORT || 8000
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://one-cart-frontend-ojj5.onrender.com" , "http://localhost:5174"],
+ origin:["https://one-cart-frontend-ojj5.onrender.com" , "https://one-cart-admin-6np7.onrender.com"],
  credentials:true
 }))
 
