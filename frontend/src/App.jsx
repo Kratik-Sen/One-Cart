@@ -67,7 +67,8 @@ let location = useLocation()
         <Route path='*' element={<NotFound/>}/>
 
    </Routes>
-   <Ai/>
+       {userData && <Ai />}
+
    </>
   )
 }
